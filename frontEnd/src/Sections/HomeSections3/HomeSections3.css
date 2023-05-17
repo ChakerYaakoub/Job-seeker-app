@@ -28,6 +28,10 @@ width: 100%;
 .ShowButtonsFeaturedJobs .ShowAllButton , .ShowButtonsFeaturedJobs .ShowLessButton  {
  padding: 1rem ;
 }
+.ShowAllButton:hover , .ShowLessButton:hover{
+    filter: saturate(4);  
+    
+}
 
 
 @media screen and (max-width: 768px) {

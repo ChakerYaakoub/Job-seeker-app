@@ -8,6 +8,8 @@ import { default as y11 } from "./y11.jpg"
 
 
 export { default as slider1 } from "./slider1.png";
+export { default as app } from "./app.jpg";
+
 export { default as work } from "./work.png";
 export { default as agency } from "./agency.png";
 export { default as magnifiying } from "./magnifiying-glass.png";
