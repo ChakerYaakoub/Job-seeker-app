@@ -1,0 +1,23 @@
+.IDSLogo{
+ 
+    font-weight: 500;
+    /* font-size: clamp(1rem , 2vw , 2vw) ; */
+    font-size: 1.5rem;
+    margin-left: 1rem ;
+    
+}
+.IDSLogo a{
+    color: var(--TextDarkShadowColor);
+}
+.IDSLogo .cmpName {
+    font-weight: 900;
+    color: var(--BlueColor);
+
+}
+
+@media screen and (max-width: 767px) {
+    .IDSLogo{
+        font-size: 2rem;}
+
+
+}

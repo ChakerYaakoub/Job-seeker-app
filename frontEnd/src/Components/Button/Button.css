@@ -1,0 +1,8 @@
+.ReusableButton{
+    text-align: center;
+    background-color: var(--BlueColor);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}

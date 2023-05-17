@@ -1,0 +1,65 @@
+ .HomeSections1{
+    height: auto;
+    background-color: var(--BackgroundHome);
+    display: flex;
+    padding: var(--paddingLeftRight);
+    overflow: hidden;
+
+   
+ } 
+
+ .SearchBoxDiv{
+   width: 50%;
+   padding-top: 9rem;
+   
+ }
+
+ .ImageBtnDiv{
+   width: 50%;
+
+ }
+ 
+
+  /* Adjust font size for smaller screens */
+ @media screen and (max-width: 768px) {
+   .SearchBoxDiv{
+      width: 100%;
+      padding-top: 1rem;
+  
+    }
+    .ImageBtnDiv{
+      display: none;
+    }
+  
+
+ }
+ 
+ 
+ /* Styles for screens between 768px and 991px tablets */
+ @media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .SearchBoxDiv{
+    width: 60%;
+ 
+
+  }
+  .ImageBtnDiv{
+    width: 40%;
+  }
+
+ 
+ }
+ 
+ /* Styles for screens larger than 992px desktops */
+ @media screen and (min-width: 992px) and (max-width: 1213px) {
+  #AR .SearchBoxDiv{
+    width: 57%;
+ 
+
+  }
+  #AR  .ImageBtnDiv{
+    width: 43%;
+  }
+
+     
+ }

@@ -1,0 +1,49 @@
+.UserType{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.UserType div{
+    width: 47%;
+    text-align: center;
+    margin-bottom: 1rem  ;
+
+}
+
+.UserType div i{
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+
+}
+.UserTypeBtn{
+    width: 100%;
+   
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    background-color: var(--Gray);
+    color:  rgb(43, 185, 43) ; 
+    cursor: pointer;
+
+}
+
+.UserTypeBtn:hover{
+  
+filter: saturate(2);  
+}
+ 
+
+.UserTypeBtn.active{
+    background-color: rgb(43, 185, 43) !important;
+    color: white !important;
+
+}
+
+.retryPasswordDiv{
+    padding-top: 1.8rem ;
+
+}
+
+.HaveAccountDiv{
+
+}

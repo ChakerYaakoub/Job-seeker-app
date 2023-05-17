@@ -1,0 +1,37 @@
+.mydropdown-content {
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 10vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+}
+
+.mydropdown-content span {
+    color: black;
+    /* padding: 1rem 1rem; */
+    text-decoration: none;
+    display: block;
+    margin: auto;
+}
+
+.mydropdown-content span:hover {
+    background-color: #afd6d6;
+    cursor: pointer;
+}
+
+.selectedLang{
+    background-color: #6c77d4;
+}
+
+@media screen and (max-width: 767px) {
+    .mydropdown-content {
+        width: auto;
+        font-size: 1rem;
+      
+        border-radius: 10%;
+        padding: 0.5rem 0rem;
+    }
+
+}
+

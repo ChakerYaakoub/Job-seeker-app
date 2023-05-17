@@ -1,0 +1,45 @@
+.HomeSections2 {
+    padding-top: var(--sectionsPaddingTop);
+
+    padding-left: var(--paddingLeftRight);
+    padding-right: var(--paddingLeftRight);
+}
+
+.HomeSections2Divs {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.HomeSections2Divs .HomeSections2Divs1div {
+    width: 30%;
+    margin: auto;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .HomeSections2Divs .HomeSections2Divs1div {
+        width: 100%;
+        margin: auto;
+    
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .HomeSections2Divs .HomeSections2Divs1div {
+        /* width: 48%;
+        margin: 0 1%; */
+    
+    }
+
+}
+
+/* Styles for screens larger than 992px desktops */
+@media screen and (min-width: 992px) {
+
+}

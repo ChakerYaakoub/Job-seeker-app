@@ -1,0 +1,91 @@
+.ImageBtnDiv {
+    position: relative;
+}
+
+.BTNWork {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+#AR .BTNWork {
+    position: absolute;
+    right: -50% !important;
+    top: 0px;
+
+}
+
+/* arabice buttn 2  */
+#AR .BTNagency {
+    position: absolute;
+    left: -100% !important;
+
+    bottom: 0px !important;
+    transition: left 3s !important;
+    z-index: -1;
+ 
+}
+#AR .BTNagency:hover{
+    left:none !important ;
+    right: none !important;
+    z-index: -1;
+
+    
+
+
+}
+
+.BTNagency {
+    position: absolute;
+    right: -260px;
+    bottom: 0px;
+    transition: right 3s;
+}
+
+.BTNagency:hover{
+    right:0px
+
+
+}
+
+
+.ImageBtnDiv button {
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.imgZindex-1 {
+    z-index: 0;
+    position: absolute;
+    left: 5rem;
+    height: auto;
+
+}
+
+#AR .imgZindex-1 {
+    z-index: 0;
+    position: absolute;
+    right: 5rem;
+    height: auto;
+
+}
+
+/* Styles for screens between 768px and 991px tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .imgZindex-1 {
+       
+        left: 3.5rem;
+     
+    
+    }
+    /* #AR .imgZindex-1 {
+        left: 3.5rem;
+     
+    
+    } */
+   
+   }

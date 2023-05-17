@@ -1,0 +1,69 @@
+.PopupLogin{
+    color: var(--TextDarkShadowColor);
+}
+
+.SubmitLogRegisterDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.SubmitLogRegister {
+    width: 100%;
+    margin: auto;
+
+    padding: 1rem;
+    
+
+
+}
+
+.activeSubmit{
+    background-color: aqua !important;
+
+}
+
+.SupportLogin {
+    display: flex;
+    justify-content:space-between ;
+
+    padding: 1.2rem 0rem ;
+
+
+}
+
+.ForgotPass a{
+    text-decoration: 0;
+    color: inherit;
+
+}
+
+.ForgotPass:hover{
+ color: var(--BlueColor);
+
+}
+
+
+.NotHaveOrHaveAccount{
+    text-align: center;
+    padding: 1.5rem;
+    color: var(--TextDarkGrayColor);
+
+}
+
+.NotHaveOrHaveAccount span{
+
+    /* padding-left: 0.3rem;
+    padding-right: 0.3rem; */
+    color: var(--BlueColor);
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.Notmatched{
+    text-align: center;
+    padding: 1rem;
+    color: red;
+}

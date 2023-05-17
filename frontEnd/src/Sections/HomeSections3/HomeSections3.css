@@ -1,0 +1,55 @@
+.HomeSections3 {
+    padding-top: var(--sectionsPaddingTop);
+
+    padding-left: var(--paddingLeftRight);
+    padding-right: var(--paddingLeftRight);
+}
+
+.FeaturedJobsDivsParents {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+width: 100%;
+
+}
+
+.FeaturedJobsDivsParents .FeaturedJobsDivOne {
+    width: 46%;
+
+    margin: 0 2% ;
+
+}
+
+.ShowButtonsFeaturedJobs{
+    margin: 1rem  0rem;
+    text-align: center;
+}
+
+.ShowButtonsFeaturedJobs .ShowAllButton , .ShowButtonsFeaturedJobs .ShowLessButton  {
+ padding: 1rem ;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .FeaturedJobsDivsParents .FeaturedJobsDivOne {
+        width: 95%;
+        margin: auto;
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* .FeaturedJobsDivsParents .FeaturedJobsDivOne {
+        width: 48%;
+        margin: 0 1%;
+    
+    } */
+
+}
+
+/* Styles for screens larger than 992px desktops */
+@media screen and (min-width: 992px) {}

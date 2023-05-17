@@ -1,0 +1,345 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+.SearchTermjobTitle {
+  margin: 0 0.5rem;
+  cursor: pointer;
+  font-weight: 400;
+
+
+
+}
+
+.SearchTermjobTitle:hover {
+  color: var(--BlueColor);
+  font-weight: 500;
+
+}
+
+.SearchJob p {
+  color: var(--TextDarkGrayColor);
+  font-weight: 400;
+  font-size: 1rem;
+
+}
+
+.SearchJob p .BoldSpan {
+  font-weight: 600;
+  color: var(--TextDarkShadowColor);
+
+}
+
+.SearchBoxForm {
+  display: flex;
+
+}
+
+.jobTitleDiv,
+.searchCityDiv {
+  width: 35%;
+  padding: 0 0.5rem;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.SearchFormDiv {
+  background-color: white;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+
+#searchJobForm .e-label-bottom {
+  padding-left: 3rem;
+  color: var(--TextDarkShadowColor);
+  font-weight: 500;
+  /* font-size: 0.8rem; */
+}
+
+#AR #searchJobForm .e-label-bottom {
+  padding-right: 3rem !important;
+
+  color: var(--TextDarkShadowColor);
+  font-weight: 500;
+  z-index: 1;
+  padding-left: 0px;
+
+  /* font-size: 0.8rem; */
+}
+
+
+#AR #searchJobForm .e-control.e-textbox.e-lib {
+  padding-right: 1.2rem !important;
+}
+
+
+
+#AR #searchJobForm #ej2_dropdownlist_1_hidden {
+  padding-right: 1rem !important;
+
+}
+
+
+/* #AR #searchJobForm .form-group.jobTitleDiv  {
+  padding-right: 3rem !important;
+
+} */
+.e-float-input {
+  z-index: 1;
+}
+
+
+/* <label class="e-float-text e-label-bottom">المدينة أو الرمز البريدي</label> */
+
+/* <label class="e-float-text e-label-bottom" id="label_textbox_0" for="textbox_0">المسمى الوظيفي ، الكلمات الرئيسية ...</label> */
+
+#searchJobForm .e-textbox {
+  border: none;
+
+
+}
+
+#AR #label_textbox_0 {
+  right: 0.12rem;
+
+}
+
+
+
+#searchJobForm .e-float-text {
+  color: var(--TextDarkShadowColor);
+  font-size: 0.8rem;
+  font-weight: 600;
+
+}
+
+
+
+
+#searchJobForm .e-dropdownbase .e-list-item.e-item-focus,
+.e-dropdownbase .e-list-item.e-active,
+.e-dropdownbase .e-list-item.e-active.e-hover,
+.e-dropdownbase .e-list-item.e-hover {
+  background-color: rgb(104, 155, 214) !important;
+  color: white;
+}
+
+/* #searchJobForm  .e-label-top{
+  display: none;
+
+} */
+
+#searchJobForm .e-float-line::after,
+#searchJobForm .e-float-line::before {
+  background-color: var(--BlueColor) !important;
+
+
+}
+
+#searchJobForm .labelIMG {
+  position: absolute;
+  left: 1.7rem;
+  bottom: 20%;
+  font-size: large;
+}
+
+/* // image arabice label  */
+#AR #searchJobForm .labelIMG {
+  position: absolute;
+  right: 1.7rem !important;
+  bottom: 20%;
+  font-size: large;
+}
+
+
+
+
+#searchJobForm .e-keyboard {
+  border-color: transparent !important;
+
+}
+
+/* Buttun Css Search  */
+.BTNsearchBtn {
+  margin: auto;
+}
+
+.searchButtn {
+  padding: 0.7rem 0.8rem;
+  font-size: 1rem 0rem;
+  background-color: var(--BlueColor);
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin: 0.5rem;
+  width: auto;
+}
+
+.searchButtn:hover {
+  /* filter: contrast(180%); */
+  filter: saturate(7);
+
+}
+
+.jobTitleDiv {
+  border-right: 1px solid rgb(216, 213, 213);
+}
+
+
+@media screen and (min-width: 991px) and (max-width: 1110px)  {
+
+  .jobTitleDiv {
+    border-right: none;
+  }
+  
+}
+@media screen and (min-width: 700px) and (max-width: 840px)  {
+
+  .jobTitleDiv {
+    border-right: none;
+  }
+  
+}
+
+/* Styles for screens between 768px and 991px tablets */
+@media screen and (min-width: 991px) and (max-width: 1100px) {
+
+
+  #searchJobForm .e-label-bottom {
+    padding-left: 3rem;
+    color: var(--TextDarkShadowColor);
+    font-weight: 500;
+    /* font-size: 0.8rem; */
+  }
+  
+  #AR #searchJobForm .e-label-bottom {
+    padding-right: 2.3rem !important;
+  
+   
+  
+    /* font-size: 0.8rem; */
+  }
+
+
+
+
+}
+
+/* Styles for screens larger than 992px desktops */
+@media screen and (min-width: 768px) and (max-width: 891px) {
+  #AR #searchJobForm .e-label-bottom {
+    padding-right: 2.3rem !important;
+  
+   
+  
+    /* font-size: 0.8rem; */
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .SearchBoxForm {
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+
+  .jobTitleDiv {
+    border-right: none;
+    border-bottom: 1px solid rgb(216, 213, 213);
+  }
+
+  .SearchBoxForm .jobTitleDiv,
+  .SearchBoxForm .searchCityDiv,
+  .SearchBoxForm .BTNsearchBtn {
+    width: 100%;
+
+    /* margin: 1rem 0rem; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+  }
+
+  #searchJobForm .labelIMG {
+
+    left: 3rem;
+    bottom: 30%;
+    font-size: 2rem;
+
+  }
+
+  #AR #searchJobForm .labelIMG {
+
+
+    bottom: 30%;
+    font-size: 1.7rem;
+
+  }
+
+  #searchJobForm .e-float-text {
+
+    font-size: 1.5rem;
+
+
+  }
+
+  #searchJobForm .e-label-bottom {
+    padding-left: 6rem;
+    overflow: hidden;
+
+    /* font-size: 0.8rem; */
+  }
+
+
+  .BTNsearchBtn {
+    margin: auto;
+    text-align: center;
+  }
+
+  .searchButtn {
+    padding: 0.7rem 0.8rem;
+    font-size: 1rem 0rem;
+    background-color: var(--BlueColor);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem;
+    width: 90%;
+  }
+
+
+  #AR #searchJobForm .e-control.e-textbox.e-lib {
+    padding-right: 3rem !important;
+    margin-top: 1rem !important;
+  }
+
+  #AR #searchJobForm .e-control.e-dropdownlist.e-lib {
+    padding-right: 2rem !important;
+    margin-top: 1rem !important;
+
+  }
+
+  #searchJobForm .e-control.e-textbox.e-lib {
+
+    margin-top: 1rem !important;
+  }
+
+  #searchJobForm .e-control.e-dropdownlist.e-lib {
+
+    margin-top: 1rem !important;
+
+  }
+
+
+
+}

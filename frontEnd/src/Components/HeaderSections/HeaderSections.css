@@ -1,0 +1,15 @@
+.HeaderSections{
+    text-align: center;
+}
+
+.title-HeaderSections{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0.5rem;
+}
+
+.subTitle-HeaderSections{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--TextDarkGrayColor);
+}

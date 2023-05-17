@@ -1,0 +1,116 @@
+.PopupLogin .form-group {
+
+    padding: 0.1rem 0rem;
+
+}
+
+/* #LoginForm .e-float-input.e-control-wrapper{
+    margin: 0.5rem !important;
+} */
+
+.PopupLogin .e-float-text.e-label-top {
+    /* font-weight: 700;
+    font-size: 1.1rem;
+  margin-bottom: 3rem; */
+  display: none !important;
+   
+
+}
+
+
+
+.PopupLogin .e-control.e-textbox.e-lib {
+   /* height: 2.5rem; */
+    background-color: var(--Gray);
+    border-radius: 10px 10px  5px 5px;
+    font-size: 1.1rem;
+  
+    box-sizing: border-box;
+    padding: 0.8rem 0rem ;
+    padding-left: 1rem;
+    border: none;
+
+}
+
+.PopupLogin .e-float-line::after,
+.PopupLogin .e-float-line::before {
+  background-color: var(--BlueColor) !important;
+
+ 
+
+
+}
+
+
+
+.PopupLogin .e-textbox {
+    border: none;
+  
+  
+  }
+
+  #En .PopupLogin  .e-float-text.e-label-bottom{
+    padding-left: 1rem !important;
+    padding-top: 0.7rem !important;
+  
+  
+}
+
+.PopupLogin .e-float-input,.PopupLogin .e-float-input.e-control-wrapper{
+    margin-top: 0.8rem;
+}
+
+
+
+#AR .PopupLogin  .e-float-text.e-label-bottom{
+ 
+    padding-left: 0rem;
+    padding-top: 0.5rem;
+
+  
+}
+
+#AR .PopupLogin .e-control.e-textbox.e-lib {
+    /* height: 2.5rem; */
+   
+     padding-right: 1rem;
+     padding-left: 0rem;
+ 
+ }
+
+ #AR  .PasswordInput .SHowPassBTN{
+  
+    top: 40%;
+    right: 95% !important;
+ 
+   
+    z-index: 8;
+
+
+
+}
+
+.PasswordInput {
+    position: relative;
+
+
+}
+
+.PasswordInput .SHowPassBTN{
+    position: absolute;
+    top: 42%;
+    right: 3%;
+    
+    z-index: 8;
+   cursor: pointer;
+   font-weight: 900;
+
+
+}
+
+
+
+.PopupLogin input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px var(--Gray) inset !important;
+    background-color: var(--Gray) !important;
+  }

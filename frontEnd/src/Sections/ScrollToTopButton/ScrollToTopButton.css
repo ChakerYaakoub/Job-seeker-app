@@ -1,0 +1,25 @@
+.ScrollToTopButton {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: transparent;
+    /* color: var(--BlueColor); */
+    color: var(--TextDarkShadowColor);
+    border: none;
+    font-size: 2rem;
+   
+   
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .ScrollToTopButton:hover{
+    filter: saturate(7);  
+
+  }
+  
+  .ScrollToTopButton.visible {
+    opacity: 1;
+  }
+  

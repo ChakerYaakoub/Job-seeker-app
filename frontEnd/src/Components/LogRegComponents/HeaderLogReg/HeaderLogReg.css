@@ -1,0 +1,18 @@
+
+.HeaderLogReg{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--TextDarkShadowColor);
+    padding-bottom: 2rem;
+}
+.PopupLogRegclose-btn {
+   color: var(--TextDarkGrayColor);
+  }
+  
+
+  .PopupLogRegclose-btn:hover {
+    color: var(--BlueColorText);
+   }
+   

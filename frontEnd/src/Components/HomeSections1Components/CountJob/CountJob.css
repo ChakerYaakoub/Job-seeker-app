@@ -1,0 +1,12 @@
+.CountJob{
+    font-size: 2.7rem;
+    font-weight: 600;
+    white-space: wrap; 
+ 
+
+
+}
+.CountJob .PostingsNB {
+    color: var(--BlueColor);
+
+}

@@ -1,0 +1,98 @@
+.PopupLogReg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  backdrop-filter: blur(1px);
+
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  z-index: 1000;
+
+}
+
+.PopupLogReg-inner {
+  position: relative;
+  margin: auto 0rem;
+  max-height: 35rem;
+  height: auto;
+  padding: 2rem;
+  width: 100%;
+  /* max-width: 640px; */
+  max-width: 30rem;
+  background-color: white;
+  /* overflow: auto; */
+  border-radius: 4%
+}
+
+
+.PopupLogRegblocker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: ' ';
+  /* background: rgba(0,0,0,.5); */
+}
+
+.PopupLogReg-inner::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 4%;
+}
+
+
+.PopupLogReg-inner::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4%;
+
+}
+
+
+.PopupLogReg-inner::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4%;
+
+}
+
+
+.PopupLogReg-inner::-webkit-scrollbar-thumb:hover {
+  background: #afa9a9;
+  border-radius: 4%;
+
+}
+
+
+/* //mobile  */
+@media screen and (max-width: 768px) {
+
+  .PopupLogReg-inner {
+
+    margin: auto 0rem;
+    max-height: 50rem;
+    height: auto;
+    /* height: 30rem; */
+    padding: 2rem;
+    width: 100%;
+    /* max-width: 640px; */
+    max-width: 25rem;
+
+
+  }
+
+
+}
+
+
+/* Styles for screens between 768px and 991px tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Styles for screens larger than 992px desktops */
+@media screen and (min-width: 992px) {}

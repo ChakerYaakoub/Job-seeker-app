@@ -1,0 +1,309 @@
+.FeaturedJobsDiv {
+    display: flex;
+    margin: auto;
+    /* auto  */
+
+    border-radius: 10px;
+
+    margin: 0.8rem 0;
+    box-sizing: border-box;
+
+    padding: 01rem 0rem;
+    box-sizing: border-box;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+
+    position: relative;
+}
+
+#AR #AddFavFixBtn {
+
+
+    right: 95%;
+
+
+    top: 0.6rem;
+
+
+}
+
+.AddFavFixBtn {
+    position: absolute;
+    right: 0.6rem;
+    top: 0.6rem;
+    cursor: pointer;
+    color: var(--TextDarkGrayColor);
+
+}
+
+
+
+.AddFavFixBtn:hover {
+    color: var(--BlueColor);
+    font-weight: 600;
+
+
+}
+
+.FeaturedJobsIMG {
+    width: 15%;
+    /* text-align: center; */
+
+
+    /* padding-bottom: 10% ; */
+    padding-left: 0.5rem;
+
+
+
+}
+
+#AR .FeaturedJobsIMG {
+
+    padding-left: 0rem;
+    padding-right:0.5rem;
+
+
+
+}
+
+#AR .FeaturedJobsIMG img {
+    cursor: pointer;
+
+
+    margin-right: 0.5rem;
+    margin-left: 0rem;
+
+}
+
+
+
+.FeaturedJobsIMG img {
+    cursor: pointer;
+    width: 70%;
+
+    margin-left: 0.5rem;
+
+
+
+    background: transparent;
+
+    border-radius: 10px;
+}
+
+.FeaturedJobsText {
+    width: 75%;
+
+}
+
+
+
+
+.FeaturedJobsText .FeaturedJobstitleJob .MyTitleJob {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--TextDarkShadowColor);
+    /* width: 80%; */
+    cursor: pointer;
+}
+
+.FeaturedJobsText .FeaturedJobstitleJob .MyTitleJob:hover {
+    color: var(--BlueColor);
+}
+
+.MyTitleJob span {
+    padding: 0rem 0.3rem;
+}
+
+.chowFeatured {
+    display: none !important;
+}
+
+.IsFeatured {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgb(25, 168, 25);
+    vertical-align: text-top;
+
+}
+
+.Filled {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgb(168, 25, 25);
+    vertical-align: text-top;
+
+}
+
+.InfoFeaturedJobs {
+    display: flex;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--TextDarkGrayColor);
+    flex-wrap: wrap;
+    padding: 0.2rem 0rem;
+}
+
+.InfoFeaturedJobs div {
+    padding-right: 0.7rem;
+}
+
+
+
+.InfoFeaturedJobs div i {
+    padding-right: 0.2rem;
+}
+
+#AR .InfoFeaturedJobs div i {
+    padding-left: 0.4rem;
+    padding-right: 0rem !important;
+
+}
+
+#AR .InfoFeaturedJobs div {
+    padding-right: 0rem !important;
+    padding-left: 1rem;
+
+}
+
+.ApplyToJobBTn{
+    position: absolute;
+
+   
+    bottom: 1.5rem ;
+    padding: 0.3rem 0.5rem  ;
+    font-size: 0.9rem;
+    /* background-color: rgb(43, 185, 43) !important; */
+
+}
+
+#En .ApplyToJobBTn{
+    right: 1.5rem;
+
+}
+
+#AR .ApplyToJobBTn{
+
+
+    left: 1.5rem;
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    /* Adjust font size for smaller screens */
+    .chowFeatured {
+        display: inline-block !important;
+    }
+
+    .HideFeatured {
+        display: none;
+    }
+
+
+    .InfoFeaturedJobs {
+        display: flex;
+        font-size: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .InfoFeaturedJobs div {
+        padding-right: 0.7rem;
+        /* width: 50%; */
+    }
+
+    .chowFeatured span:nth-child(2) {
+        padding-left: 1rem;
+
+    }
+
+    #AR .chowFeatured span:nth-child(2) {
+        padding-left: 0rem;
+        padding-right: 1rem;
+
+
+    }
+
+    #AR .chowFeatured span{
+        font-size: 1rem !important;
+    }
+
+}
+
+.isUrgentOrtype{
+    display: flex;
+    margin: 0.5rem 0 ;
+}
+
+.isUrgentOrtype div{
+    padding: 2px  7px  ;
+    border-radius: 50px;
+    font-size: 0.7rem;
+    font-weight: 600;
+
+    
+    
+   
+}
+.isUrgentOrtype .typeJobTime{
+ 
+    background-color: #afcbe7;
+    color: var(--BlueColor);
+    
+   
+}
+.isUrgentOrtype .isUrgentDiv{
+    margin: 0 1rem ;
+    background-color: rgb(247, 211, 199);
+    color: rgb(167, 129, 4);
+
+ 
+    
+   
+}
+
+
+
+
+
+/* Styles for screens between 768px and 991px tablets */
+@media screen and (min-width: 768px) and (max-width: 890px) {
+    .chowFeatured {
+        display: inline-block !important;
+
+    }
+
+    .HideFeatured {
+        display: none;
+    }
+    .chowFeatured span:nth-child(2) {
+        padding-left: 1rem;
+
+    }
+
+    #AR .chowFeatured span:nth-child(2) {
+        padding-left: 0rem;
+        padding-right: 1rem;
+
+
+    }
+    #AR .chowFeatured span{
+        font-size: 1rem !important;
+    }
+
+}
+
+/* Styles for screens larger than 992px desktops */
+@media screen and (min-width: 992px) {
+
+    #AR .chowFeatured span{
+        font-size: 1rem !important;
+    }
+}
