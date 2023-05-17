@@ -3,4 +3,114 @@
 
     padding-left: var(--paddingLeftRight);
     padding-right: var(--paddingLeftRight);
+    display: flex;
+
 }
+
+.downloadImageApp {
+    width: 50%;
+}
+
+.downloadImageApp img{
+    width: 100%;
+}
+
+
+.downloadBtnTextApp {
+    margin: auto 0;
+    padding-left:  1rem;
+}
+
+#En .downloadBtnTextApp {
+
+    padding-left:  1rem;
+}
+
+#AR .downloadBtnTextApp {
+
+    padding-right:  1rem;
+}
+
+
+
+.downloadBtnTextApp p{
+    margin: 1rem 0;
+}
+
+.downloadText{
+    color: var(--BlueColor);
+    font-weight: 500;
+}
+
+.SearchText{
+    color: var(--TextDarkShadowColor);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.millionSearch{
+
+    color: var(--TextDarkGrayColor);
+ 
+    font-size: 1rem;
+
+}
+
+
+.DounloadBtn {
+    display: flex;
+    margin : 3rem 0rem ;
+}
+
+
+.DounloadBtn .MyDounloadBtnAppLeftRight {
+    width: 40%;
+}
+
+
+
+
+/* .MyDounloadBtnAppLeftRight{
+    margin: 0rem  1rem ;
+} */
+
+@media screen and (max-width: 768px) {
+    .downloadImageApp {
+        display: none;
+    }
+    .DounloadBtn {
+        display: flex;
+        margin : 3rem auto ;
+    }
+  
+    .DounloadBtn .MyDounloadBtnAppLeftRight {
+       
+        margin : 0rem auto ;
+    }
+    .downloadBtnTextApp{
+        width: 100%;
+    }
+}
+
+
+/* Styles for screens between 768px and 991px tablets */
+@media screen and (min-width: 768px) and (max-width: 983px) {
+    .DounloadBtn .MyDounloadBtnAppLeftRight {
+        width: 50%;
+        
+    }
+    .DounloadBtn .MyDounloadBtnAppLeftRight {
+        width: 50%;
+        margin : 0rem auto ;
+    }
+    .DounloadBtn {
+        display: flex;
+        margin : 3rem auto ;
+    }
+
+ 
+
+}
+
+/* Styles for screens larger than 992px desktops */
+@media screen and (min-width: 992px) {}

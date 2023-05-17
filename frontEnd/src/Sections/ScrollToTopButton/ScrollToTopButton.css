@@ -1,25 +1,59 @@
 .ScrollToTopButton {
+  position: fixed;
+  bottom: 4rem;
+
+  background-color: transparent;
+  color: var(--BlueColor);
+  /* color: var(--TextDarkShadowColor); */
+  border: none;
+  font-size: 2rem;
+
+
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#AR  .ScrollToTopButton{
+  left: 2rem;
+
+}
+
+#En  .ScrollToTopButton{
+  right: 2rem;
+
+}
+
+.ScrollToTopButton:hover {
+  color: var(--BlueColor);
+}
+
+.ScrollToTopButton:hover {
+  filter: saturate(7);
+
+}
+
+.ScrollToTopButton.visible {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+
+  .ScrollToTopButton {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    background-color: transparent;
-    /* color: var(--BlueColor); */
-    color: var(--TextDarkShadowColor);
-    border: none;
-    font-size: 2rem;
-   
-   
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.3s;
+    bottom: 1rem;
+ 
+  
   }
-
-  .ScrollToTopButton:hover{
-    filter: saturate(7);  
-
+  #AR  .ScrollToTopButton{
+    left: 1rem;
+  
   }
   
-  .ScrollToTopButton.visible {
-    opacity: 1;
-  }
+  #En  .ScrollToTopButton{
+    right: 1rem;
   
+  }
+ 
+
+}

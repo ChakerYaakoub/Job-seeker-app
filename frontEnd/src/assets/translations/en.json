@@ -111,7 +111,27 @@
 
   "showAll" : "Load More Listings "  ,
 
-  "showLess" : "Show Less Listings "  
+  "showLess" : "Show Less Listings "  ,
+
+
+  "downloadText" : "Download & Enjoy "  ,
+  "SearchText" : "Get our Search Job App "  ,
+
+  "millionSearch" : "Search through million of jobs and find the right fit . Simply right to apply "  ,
+  "DownloadAppStore" : "Download from "  ,
+  "AppleStore" : "Apple Store"  ,
+  "GetInGoog" : "Get in on"  , 
+  "GooglePlay" : "Google Play"  , 
+  "rightReserved" : "All Right Reserved"  
+
+
+
+
+
+
+
+
+
 
 
 

@@ -21,7 +21,9 @@ export { default as SomeInfoProfile } from "./ProfileComponents/SomeInfoProfile"
 export { default as WelcomeUser } from "./ProfileComponents/WelcomeUser";    
 export { default as HeaderSections } from "./HeaderSections/HeaderSections";      
 export { default as JobsCategoryDiv } from "./JobsCategoryDiv/JobsCategoryDiv";      
-export { default as FeaturedJobsDiv } from "./FeaturedJobsDiv/FeaturedJobsDiv";       
+export { default as FeaturedJobsDiv } from "./FeaturedJobsDiv/FeaturedJobsDiv";     
+export { default as DounloadBtnApp } from "./DounloadBtnApp/DounloadBtnApp";       
+
 
 
 
