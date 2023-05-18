@@ -9,6 +9,8 @@ export { default as CandidateProfile } from "./CandidateProfile/CandidateProfile
 export { default as ScrollToTopButton } from "./ScrollToTopButton/ScrollToTopButton";  
 export { default as HomeSections3 } from "./HomeSections3/HomeSections3";  
 export { default as HomeSections4 } from "./HomeSections4/HomeSections4";  
+export { default as AddJobsSections } from "./AddJobsSections/AddJobsSections";  
+
 
 
 

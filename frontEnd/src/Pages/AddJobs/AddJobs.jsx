@@ -1,9 +1,15 @@
 import React from 'react'
 import "./AddJobs.css"
+import {AddJobsSections} from "../../Sections"
 
 const AddJobs = () => {
   return (
-    <div>AddJobs</div>
+    <div className='AddJobspage'>
+    <AddJobsSections/>
+ 
+
+
+    </div>
   )
 }
 
