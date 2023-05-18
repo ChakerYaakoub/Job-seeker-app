@@ -20,6 +20,69 @@ export { default as test } from "./web-programming.png";
 // employer@gmail.com
 
 // P@ssw0rd
+export const requiredFields = ['jobTitle', 'jobDesc', 'jobCategory', 'jobType', 'jobMaxSalary', 'jobTag'];
+export const optionsAddJobsEnglish = {
+  rules: {
+    // Existing validation rules...
+    jobTitle: {
+      required: [true, '* Please enter the Job Title'],
+      minLength: [5, '* Job Title must be at least 5 characters'],
+      maxLength: [100, '* Job Title cannot exceed 100 characters'],
+    },
+    jobDesc: {
+      required: [true, '* Please enter the Job Description'],
+      minLength: [100, '* Job Description must be at least 100 characters'],
+      maxLength: [1000, '* Job Description cannot exceed 1000 characters'],
+    },
+    jobCategory: {
+      required: [true, '* Please enter the Job Category'],
+    },
+    jobType: {
+      required: [true, '* Please enter the Job Type'],
+    },
+    jobTag: {
+      required: [true, '* Please enter the Job Tag'],
+      regex: [/^#\S+$/, '* Job Tag must start with "#" and cannot contain whitespace'],
+    },
+    jobMaxSalary: {
+      required: [true, '* Please enter the Job Salary'],
+      number: [true, '* Job Salary must be a number'],
+      min: [2, '* Job Salary must be at least 2'],
+    },
+  },
+};
+
+export const optionsAddJobsArabic = {
+  rules: {
+    // Existing validation rules...
+    jobTitle: {
+      required: [true, '* الرجاء إدخال عنوان الوظيفة'],
+      minLength: [5, '* عنوان الوظيفة يجب أن يتكون من 5 أحرف على الأقل'],
+      maxLength: [100, '* عنوان الوظيفة لا يمكن أن يتجاوز 100 حرف'],
+    },
+    jobDesc: {
+      required: [true, '* الرجاء إدخال وصف الوظيفة'],
+      minLength: [60, '* وصف الوظيفة يجب أن يتكون من 100 حرف على الأقل'],
+      maxLength: [1000, '* وصف الوظيفة لا يمكن أن يتجاوز 1000 حرف'],
+    },
+
+    jobCategory: {
+      required: [true, '* الرجاء إدخال الفئة'],
+    },
+    jobType: {
+      required: [true, '* الرجاء إدخال النوع'],
+    },
+    jobTag: {
+      required: [true, '* الرجاء إدخال الوسم'],
+      regex: [/^#\S+$/, '* الوسم يجب أن يبدأ بـ "#" ولا يمكن أن يحتوي على مسافات'],
+    },
+    jobMaxSalary: {
+      required: [true, '* الرجاء إدخال الراتب'],
+      number: [true, '* الراتب يجب أن يكون رقمًا'],
+      min: [2, '* الراتب يجب أن يكون على الأقل 2'],
+    },
+  },
+};
 
 export const featuredJobs =
   [
@@ -34,7 +97,7 @@ export const featuredJobs =
       "minSalary": "150",
       "maxSalary": "180",
       "salaryType": "week",
-      "type": "Full time",
+      "type": "FullTime",
       "isFeatured": "yes",
       "isFilled": "yes",
       "isUrgent": "yes"
@@ -49,7 +112,7 @@ export const featuredJobs =
       "minSalary": "450",
       "maxSalary": "500",
       "salaryType": "month",
-      "type": "Full time",
+      "type": "FullTime",
       "isFeatured": "yes",
       "isFilled": "no",
       "isUrgent": "yes"
@@ -66,7 +129,7 @@ export const featuredJobs =
       "minSalary": "50",
       "maxSalary": "68",
       "salaryType": "day",
-      "type": "Full time",
+      "type": "FullTime",
       "isFeatured": "yes",
       "isFilled": "no",
       "isUrgent": "no"
@@ -83,7 +146,7 @@ export const featuredJobs =
       "minSalary": "250",
       "maxSalary": "280",
       "salaryType": "week",
-      "type": "Part time",
+      "type": "PartTime",
       "isFeatured": "yes",
       "isFilled": "no",
       "isUrgent": "no"
@@ -100,7 +163,7 @@ export const featuredJobs =
       "minSalary": "800",
       "maxSalary": "850",
       "salaryType": "month",
-      "type": "Part time",
+      "type": "PartTime",
       "isFeatured": "no",
       "isFilled": "no",
       "isUrgent": "no"
@@ -131,7 +194,7 @@ export const featuredJobs =
       "minSalary": "350",
       "maxSalary": "380",
       "salaryType": "week",
-      "type": "Full time",
+      "type": "FullTime",
       "isFeatured": "yes",
       "isFilled": "yes",
       "isUrgent": "yes"
@@ -146,7 +209,7 @@ export const featuredJobs =
       "minSalary": "350",
       "maxSalary": "400",
       "salaryType": "month",
-      "type": "Full time",
+      "type": "FullTime",
       "isFeatured": "yes",
       "isFilled": "no",
       "isUrgent": "yes"
@@ -163,7 +226,7 @@ export const featuredJobs =
       "minSalary": "40",
       "maxSalary": "58",
       "salaryType": "day",
-      "type": "Full time",
+      "type": "FullTime",
       "isFeatured": "yes",
       "isFilled": "no",
       "isUrgent": "no"
@@ -179,7 +242,7 @@ export const featuredJobs =
       "minSalary": "150",
       "maxSalary": "180",
       "salaryType": "week",
-      "type": "Part time",
+      "type": "PartTime",
       "isFeatured": "yes",
       "isFilled": "no",
       "isUrgent": "no"
@@ -196,7 +259,7 @@ export const featuredJobs =
       "minSalary": "900",
       "maxSalary": "950",
       "salaryType": "month",
-      "type": "Part time",
+      "type": "PartTime",
       "isFeatured": "no",
       "isFilled": "no",
       "isUrgent": "no"
@@ -228,6 +291,28 @@ export const jobCategories2 = [
   { text: "Automotive Job", value: "Automotive" },
   { text: "Customer Service", value: "CustomerService" },
   { text: "Project Management", value: "ProjectManagement" }
+];
+
+export const jobTypesAddJobs = [
+  { text: "Full time", value: "FullTime" },
+  { text: "Part time", value: "PartTime" },
+  { text: "Internship", value: "Internship" }
+];
+
+export const ArabicjobCategories2 = [
+  { text: "المحاسبة / التمويل", value: "Accounting" },
+  { text: "التصميم", value: "Design" },
+  { text: "التطوير", value: "Development" },
+  { text: "التسويق", value: "Marketing" },
+  { text: "وظيفة السيارات", value: "Automotive" },
+  { text: "خدمة العملاء", value: "CustomerService" },
+  { text: "إدارة المشاريع", value: "ProjectManagement" }
+];
+
+export const ArabicjobTypesAddJobs = [
+  { text: "دوام كامل", value: "FullTime" },
+  { text: "دوام جزئي", value: "PartTime" },
+  { text: "تدريب", value: "Internship" }
 ];
 
 
@@ -379,6 +464,11 @@ export function cityCombiner() {
   });
   return data;
 }
+
+export const handleFilteringAddWork = (e, data) => {
+  const query = new RegExp(e.text, 'i');
+  e.updateData(data.filter((item) => query.test(item.text)));
+};
 
 
 export function customFiltering(e) {

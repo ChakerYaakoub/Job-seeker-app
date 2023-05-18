@@ -11,7 +11,7 @@ const DounloadBtnApp = ({ text1 = "test", text2 = "test", icon }) => {
             
                 <div className='IImageGetApp'>
 
-                    <i class={`fa-brands ${icon}`}></i>
+                    <i className={`fa-brands ${icon}`}></i>
 
                 </div>
                 <div className='TextGetApp123'>

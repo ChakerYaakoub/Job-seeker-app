@@ -82,6 +82,7 @@ const SearchForm = () => {
                   name="jobTitle"
                   placeholder={t('Keywords')}
                   floatLabelType="Auto"
+                  id='textbox_0'
                 
                   value={jobTitle}
                   change={HandleUpdate('jobTitle')}

@@ -6,6 +6,8 @@ import { legacy_createStore as createStore} from 'redux'  // replace  createStor
 import searchJobReducer from './ducks/searchJob'
 import loginFormReducer from './ducks/loginForm'
 import registerFormReducer from './ducks/registerForm'
+import addJobReducer from './ducks/addJob'
+
 
 
 
@@ -13,7 +15,9 @@ import registerFormReducer from './ducks/registerForm'
 const reducer =combineReducers({
     searchJob: searchJobReducer ,
     loginForm:loginFormReducer,
-    registerForm:registerFormReducer
+    registerForm:registerFormReducer ,
+    addJob:addJobReducer 
+
     
 }) ;
 

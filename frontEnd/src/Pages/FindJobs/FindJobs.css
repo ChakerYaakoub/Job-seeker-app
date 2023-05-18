@@ -1,0 +1,22 @@
+.FindJobs {
+    padding-top: var(--sectionsPaddingTop);
+
+    padding-left: var(--paddingLeftRight);
+    padding-right: var(--paddingLeftRight);
+    color: var(--TextDarkShadowColor);
+}
+
+.SerachNbNb{
+    color: var(--BlueColor);
+}
+
+.FindJobs h2 span {
+ padding: 0 0.5rem ;
+ font-size: 1.9rem;
+ font-weight: 600;
+
+}
+
+.LoadingSpinnerSearch{
+    margin: 3rem;
+}

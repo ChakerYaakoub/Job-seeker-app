@@ -33,8 +33,25 @@
     color: white !important;
 }
 
-#AddANewJob .e-chipcontent{
-    color: white !important;
+/* #AddANewJob #MultiSelectComponent1 .e-chipcontent{
+    -webkit-text-fill-color: rgba(255, 247, 247, 0.87);
+    color: rgba(236, 227, 227, 0.87);
+  
+
+} */
+
+#AddANewJob .e-multi-select-wrapper .e-chips .e-chips-close::before {
+    -webkit-text-fill-color: white;
+    color: white;
+    font-size: 16px;
+}
+
+#AddANewJob .e-multi-select-wrapper .e-chips>.e-chipcontent {
+    -webkit-text-fill-color: white;
+    color: white;
+    font-weight: 500;
+    font-family: inherit;
+    font-size: 0.9rem;
 }
 
 #En .e-delim-view.e-delim-values{

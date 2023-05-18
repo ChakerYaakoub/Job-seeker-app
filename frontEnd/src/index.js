@@ -7,14 +7,14 @@ import { I18nextProvider } from 'react-i18next';
 import i18n from './Configurei18n/i18n.js';
 import store from './redux/configureStore'
 import { Provider } from "react-redux"
-import {LoadingComponent} from "./Components/index"
+import { LoadingTranslation } from './Pages';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render( 
   <Provider store={store}>
     <I18nextProvider i18n={i18n}>
-    <Suspense fallback={<LoadingComponent />}>
+    <Suspense fallback={<LoadingTranslation />}>
       <ContextProvider>
         <App />
       </ContextProvider>
