@@ -114,6 +114,7 @@ const SearchForm = () => {
                 fields={{ text: 'text', value: 'value' }}
                 allowFiltering={true}
                 // allowCustom={true}
+                
            
         
                 placeholder={t('PostCode')}

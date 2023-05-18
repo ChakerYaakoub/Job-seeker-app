@@ -108,7 +108,22 @@
 "AppleStore" : " Apple" ,
 "GetInGoog" : " حمله من متجر"  ,
 "GooglePlay" : " Google " ,
-"rightReserved" : "جميع الحقوق محفوظة" 
+"rightReserved" : "جميع الحقوق محفوظة" ,
+
+
+"AddANewJob" : "إضافة وظيفة جديدة" ,
+
+"JobTitle" : "عنوان الوظيفة" ,
+
+"jobDesc" : "وصف الوظيفة" ,
+
+"category" : "الفئة" ,
+"Type" : "النوع" ,
+"Tag" : "الوسم",
+"Salary" : "الراتب",
+
+"SaveBtnJob" :"حفظ ومعاينة"
+
 
 
 

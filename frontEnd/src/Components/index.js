@@ -22,7 +22,17 @@ export { default as WelcomeUser } from "./ProfileComponents/WelcomeUser";
 export { default as HeaderSections } from "./HeaderSections/HeaderSections";      
 export { default as JobsCategoryDiv } from "./JobsCategoryDiv/JobsCategoryDiv";      
 export { default as FeaturedJobsDiv } from "./FeaturedJobsDiv/FeaturedJobsDiv";     
-export { default as DounloadBtnApp } from "./DounloadBtnApp/DounloadBtnApp";       
+export { default as DounloadBtnApp } from "./DounloadBtnApp/DounloadBtnApp";  
+
+
+export { default as SellectInput } from "./AddJobsComponenets/SellectInput/SellectInput";    
+     
+
+export { default as TextInputs } from "./AddJobsComponenets/TextInputs/TextInputs";       
+      
+
+
+
 
 
 

@@ -122,7 +122,28 @@
   "AppleStore" : "Apple Store"  ,
   "GetInGoog" : "Get in on"  , 
   "GooglePlay" : "Google Play"  , 
-  "rightReserved" : "All Right Reserved"  
+  "rightReserved" : "All Right Reserved"  ,
+
+
+  "AddANewJob" : "Add A New Job "  ,
+
+  "JobTitle" : "Job title "  ,
+
+  "jobDesc" : "Job description "  ,
+
+  "category" : "Category"  ,
+  "Type" : "Type"  ,
+  "Tag" : "Tag",
+  "Salary" : "Salary" ,
+
+  "SaveBtnJob" :"Save & Preview "
+
+
+
+
+
+
+
 
 
 

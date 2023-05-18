@@ -16,6 +16,11 @@ export { default as magnifiying } from "./magnifiying-glass.png";
 
 export { default as test } from "./web-programming.png";
 
+// candidate@gmail.com
+// employer@gmail.com
+
+// P@ssw0rd
+
 export const featuredJobs =
   [
     {
@@ -213,6 +218,19 @@ export const featuredJobs =
     }
   ]
 
+export const jobTypes = ["Full time", "Part time", "Internship"];
+export const jobCategories = ["Design", "Development", "Marketing", "automotiveJob", "CustomerService", "projectManagement"];
+export const jobCategories2 = [
+  { text: "Accounting / Finance", value: "Accounting" },
+  { text: "Design", value: "Design" },
+  { text: "Development", value: "Development" },
+  { text: "Marketing", value: "Marketing" },
+  { text: "Automotive Job", value: "Automotive" },
+  { text: "Customer Service", value: "CustomerService" },
+  { text: "Project Management", value: "ProjectManagement" }
+];
+
+
 
 export const jobCat = [
   {
@@ -392,10 +410,7 @@ export const predefinedUsers = [
     isEmployer: true,
   },
 ];
-// candidate@gmail.com
-// employer@gmail.com
 
-// P@ssw0rd
 
 
 export const optionsRegisterEnglish = {

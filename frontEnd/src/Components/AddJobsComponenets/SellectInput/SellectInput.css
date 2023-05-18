@@ -1,0 +1,46 @@
+#AddANewJob .e-multi-select-wrapper{
+    background-color: var(--BackgroundHome);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 0rem;
+
+    font-size: 1.2rem;
+ 
+}
+
+#En #AddANewJob .e-multiselect .e-down-icon .e-chips-close.e-close-hooker {
+  top: 40%;
+  right: 0%;
+}
+
+#AR #AddANewJob .e-multiselect .e-down-icon .e-chips-close.e-close-hooker {
+    top: 40%;
+    right: 4%;
+  }
+
+#AddANewJob .e-multi-select-wrapper input{
+
+
+    font-size: 1.2rem;
+}
+
+.e-chips-collection .e-chips{
+    background-color: brown;
+    color: white !important;
+}
+#AddANewJob  .e-multi-select-wrapper .e-chips-collection span.e-chips{
+    background-color: var(--BlueColor);
+    color: white !important;
+}
+
+#AddANewJob .e-chipcontent{
+    color: white !important;
+}
+
+#En .e-delim-view.e-delim-values{
+    padding-left: 1rem;
+}
+
+#AR .e-delim-view.e-delim-values{
+    padding-right: 1rem;
+}

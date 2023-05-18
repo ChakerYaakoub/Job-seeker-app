@@ -1,0 +1,6 @@
+.AddJobspage {
+    padding-top: var(--sectionsPaddingTop);
+
+    padding-left: var(--paddingLeftRight);
+    padding-right: var(--paddingLeftRight);
+}
