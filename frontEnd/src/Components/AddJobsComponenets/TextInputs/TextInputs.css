@@ -13,7 +13,7 @@
 #AddANewJob .e-multi-line-input  textarea{
     height: 8rem;
     padding: 0.5rem !important;
-    text-indent: 1rem ;
+    text-indent: 0.4rem ;
     background-color: transparent;
     border: 1px solid var(--BackgroundHome) ;
    

@@ -10,6 +10,8 @@ export { default as ScrollToTopButton } from "./ScrollToTopButton/ScrollToTopBut
 export { default as HomeSections3 } from "./HomeSections3/HomeSections3";  
 export { default as HomeSections4 } from "./HomeSections4/HomeSections4";  
 export { default as AddJobsSections } from "./AddJobsSections/AddJobsSections";  
+export { default as PopupNewJob } from "./PopupNewJob/PopupNewJob";  
+
 
 
 

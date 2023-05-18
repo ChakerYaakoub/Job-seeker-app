@@ -4,7 +4,7 @@ export { default as ChangeLangBtn } from "./HeaderComponents/ChangeLangBtn/Chang
 export { default as SearchJob } from "./HomeSections1Components/SearchJob/SearchJob";  
 export { default as CountJob } from "./HomeSections1Components/CountJob/CountJob";  
 export { default as ImageBtnDiv } from "./HomeSections1Components/ImageBtnDiv/ImageBtnDiv";   
-export { default as LoadingComponent } from "./LoadingComponent/LoadingComponent";   
+
 export { default as HeaderLogReg } from "./LogRegComponents/HeaderLogReg/HeaderLogReg";    
 export { default as TextBoxInput } from "./LogRegComponents/Inputs/TextBoxInput";    
 export { default as TextBoxInputPassword } from "./LogRegComponents/Inputs/TextBoxInputPassword";     
@@ -28,7 +28,12 @@ export { default as DounloadBtnApp } from "./DounloadBtnApp/DounloadBtnApp";
 export { default as SellectInput } from "./AddJobsComponenets/SellectInput/SellectInput";    
      
 
-export { default as TextInputs } from "./AddJobsComponenets/TextInputs/TextInputs";       
+export { default as TextInputs } from "./AddJobsComponenets/TextInputs/TextInputs";   
+
+export { default as LoadingSpinner } from "./LoadingSpinner/LoadingSpinner";   
+export { default as InfoNewJob } from "./InfoNewJob/InfoNewJob";        
+
+
       
 
 

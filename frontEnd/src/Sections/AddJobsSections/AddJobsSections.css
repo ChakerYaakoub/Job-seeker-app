@@ -58,7 +58,17 @@
 .AddJobBtnSubmit{
     padding: 1rem 2rem ;
     width: 100%;
+    opacity: 0.6;
+    cursor: not-allowed;
    
+}
+
+.enableBTNClass{
+
+    opacity: 1 !important;
+    cursor: pointer !important; 
+    background-color: rgb(43, 185, 43);
+
 }
 
 @media screen and (max-width: 768px) {

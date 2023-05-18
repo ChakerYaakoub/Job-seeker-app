@@ -1,25 +1,25 @@
-import React, { useState } from 'react'
-import "./TextInputs.css"
+import React, { forwardRef } from 'react';
+import "./TextInputs.css";
 import { TextBoxComponent } from "@syncfusion/ej2-react-inputs";
-const TextInputs = ({multiline,classStyle,title}) => {
-  const [first, setfirst] = useState('')
+
+const TextInputs = forwardRef(({ multiline, classStyle, title, placeholder, inputType, name, HandleUpdateJob, value }, ref) => {
   return (
-    <div className={`TextInputsCss ${classStyle}`} >
+    <div className={`TextInputsCss ${classStyle}`}>
       <p className='TextBoxTitle'> {title} <span className='RedSpanInput'> * </span></p>
       <TextBoxComponent
-      multiline={multiline}
-          // placeholder={"test"}
-        // ref={ref}
-        // name={props.name}
-        placeholder={'Ex sdjsfsdfmdsf'}
-        // floatLabelType={false}
-        // type={"number"}
-        value={first}
-        // change={props.HandleUpdate}
-        // data-msg-containerid={`errroFor${props.name}` }
+        ref={ref}
+        name={name}
+        change={HandleUpdateJob}
+        data-msg-containerid={`errroFor${name}`}
+        value={value}
+        multiline={multiline}
+        placeholder={placeholder}
+        type={inputType}
       />
-    </div>
-  )
-}
 
-export default TextInputs
+      <div id={`errroFor${name}`} />
+    </div>
+  );
+});
+
+export default TextInputs;

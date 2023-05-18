@@ -48,14 +48,15 @@
   border-radius: 10px;
 }
 
-#searchJobForm .e-label-bottom {
+ #searchJobForm .e-label-bottom {
   padding-left: 3rem;
   color: var(--TextDarkShadowColor);
   font-weight: 500;
   /* font-size: 0.8rem; */
+  
 }
 
-#AR #searchJobForm .e-label-bottom {
+#AR #searchJobForm .e-float-text.e-label-bottom {
   padding-right: 3rem !important;
 
   color: var(--TextDarkShadowColor);

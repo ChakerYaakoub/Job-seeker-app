@@ -129,6 +129,8 @@
 
   "JobTitle" : "Job title "  ,
 
+
+
   "jobDesc" : "Job description "  ,
 
   "category" : "Category"  ,
@@ -136,7 +138,50 @@
   "Tag" : "Tag",
   "Salary" : "Salary" ,
 
-  "SaveBtnJob" :"Save & Preview "
+  "SaveBtnJob" :"Save & Preview " ,
+
+  "placeholderJobTitle" : "e.g.: Junior Graphic Designer (Web)" ,
+  "placeholderjobDesc" : "" ,
+
+  "placeholdercategory" : "Select categories (max 2)" ,
+
+  "placeholderType" : "Select Types (max 2)" ,
+
+  "placeholderSalary" : "e.g.: 800 $" ,
+  "placeholderTag" : "e.g.: #SEO" ,
+
+  "FailedLocal" : "Failed to store recent job in local storage" ,
+  
+ 
+  "PreviewNewJob" : " Preview the new job" ,
+
+
+  "jobTitle" : "Job title  "  , 
+  "jobCategory" : "Job Category  "  , 
+  "jobMaxSalary" : "Job Salary ($) "  , 
+
+  "jobTag" : "Job Tag "  , 
+
+  "jobSalaryType" : "Job Salary Type "  , 
+
+  "jobType" : "Job Type  "  ,
+
+  "searchResultPage": "Showing <1>{{ nbOfResult }}</1>   results for :",
+
+
+ 
+ "NoteAddJobs": "Note: In the code, the recently added work is saved to the local storage, and then the state in Redux is reset to the default. \n  This is just a testing process for the variables/model. We have missing inputs and variables that are not implemented yet. These include the minimum salary,  maximum salary ,  urgency status , and other variables. We plan to add them later as part of the development process." ,
+
+ "NoteSearchPage" : "This page is designed for testing the Redux variable search feature. It gives users the freedom to specify their search criteria, whether it's by keyword, city, or both. If no specific criteria are selected and the search button is pressed, all job listings or the last 50 job listings will be displayed."
+
+  
+
+
+
+
+
+
+
 
 
 

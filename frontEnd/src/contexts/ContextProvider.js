@@ -12,8 +12,10 @@ export const ContextProvider = ({ children }) => { // for the index.js
     const [isClickedLogReg, setIsClickedLogReg] = useState(false);
     const [showLogin, setShowLogin] = useState(true);
 
-   
-  
+    const [showAddNewJob, SetshowAddNewJob] = useState(false);
+
+
+
 
 
     const handleClickLogReg = () => {
@@ -23,6 +25,11 @@ export const ContextProvider = ({ children }) => { // for the index.js
 
         }
 
+
+    };
+
+    const handleClickExitNewJob = () => {
+        SetshowAddNewJob(!showAddNewJob)
 
 
     };
@@ -83,9 +90,12 @@ export const ContextProvider = ({ children }) => { // for the index.js
                 handleClickLogReg,
                 showLogin,
                 handleClickShowLogin,
-            
-           
-            
+                handleClickExitNewJob,
+                showAddNewJob,
+                SetshowAddNewJob
+
+
+
 
             }}
         >
