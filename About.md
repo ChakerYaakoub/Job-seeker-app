@@ -14,7 +14,7 @@ IDS JOB-SEEKER is a web application designed to connect job seekers with job opp
 
 ## Getting Started
 
-To get started with IDS JOB-SEEKER, please refer to the [Getting Started](#getting-started) section in this README file.
+To get started with IDS JOB-SEEKER, please refer to the [Getting Started](#getting-started) section in the  README file (HowToUse.md) or in (HowToUsePDF.pdf)
 
 ## Accounts
 
@@ -33,7 +33,7 @@ To install and use IDS JOB-SEEKER, follow the steps outlined in the [Getting Sta
 If you have any questions or concerns about IDS JOB-SEEKER, please feel free to reach out to the project organizer:
 
 - Chaker Yaakoub - Full-stack developer
-  - Email: chakeryb.work@hotmail.com
+- Email: chakeryb.work@hotmail.com
 
 They will be more than happy to assist you with any inquiries or issues you may have.
 
