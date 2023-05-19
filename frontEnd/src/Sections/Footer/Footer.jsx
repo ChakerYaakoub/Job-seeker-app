@@ -18,12 +18,12 @@ const Footer = () => {
         </div>
         <div className='socialMediaIds'>
 
-          <Link to="/">       <i className="fa-brands fa-facebook-f"></i> </Link>
-          <Link to="/">       <i className="fa-brands fa-twitter"></i> </Link>
+          <Link to="/Job-seeker-app">       <i className="fa-brands fa-facebook-f"></i> </Link>
+          <Link to="/Job-seeker-app">       <i className="fa-brands fa-twitter"></i> </Link>
 
-          <Link to="/">         <i className="fa-brands fa-instagram"></i> </Link>
+          <Link to="/Job-seeker-app">         <i className="fa-brands fa-instagram"></i> </Link>
 
-          <Link to="/">     <i className="fa-brands fa-linkedin-in"></i> </Link>
+          <Link to="/Job-seeker-app">     <i className="fa-brands fa-linkedin-in"></i> </Link>
 
 
 

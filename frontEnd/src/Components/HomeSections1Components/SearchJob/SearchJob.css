@@ -15,14 +15,18 @@
 
 }
 
-.SearchJob p {
+.SearchJob .PopularSeraches {
   color: var(--TextDarkGrayColor);
   font-weight: 400;
   font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+
+
 
 }
 
-.SearchJob p .BoldSpan {
+.SearchJob .PopularSeraches .BoldSpan {
   font-weight: 600;
   color: var(--TextDarkShadowColor);
 

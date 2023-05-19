@@ -16,7 +16,7 @@ const NotFound404 = () => {
                         <h2>{t('Text404')}</h2>
                     </div>
 
-                    <Link to={"/"}>  {t('BTN404')}</Link>
+                    <Link to={"/Job-seeker-app"}>  {t('BTN404')}</Link>
                    
                 </div>
             </div>
