@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Job-seeker-app/static/css/main.949e4d70.css",
+    "main.css": "/Job-seeker-app/static/css/main.c54bcd8f.css",
     "main.js": "/Job-seeker-app/static/js/main.e3f646c6.js",
     "static/media/slider1.png": "/Job-seeker-app/static/media/slider1.58056e78beb2974ae067.png",
     "static/media/app.jpg": "/Job-seeker-app/static/media/app.cc656dea52002051735f.jpg",
@@ -8,11 +8,11 @@
     "static/media/work.png": "/Job-seeker-app/static/media/work.37480504e7a9f94cb743.png",
     "static/media/web-programming.png": "/Job-seeker-app/static/media/web-programming.c12c8bcfe71b7ff8e600.png",
     "index.html": "/Job-seeker-app/index.html",
-    "main.949e4d70.css.map": "/Job-seeker-app/static/css/main.949e4d70.css.map",
+    "main.c54bcd8f.css.map": "/Job-seeker-app/static/css/main.c54bcd8f.css.map",
     "main.e3f646c6.js.map": "/Job-seeker-app/static/js/main.e3f646c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.949e4d70.css",
+    "static/css/main.c54bcd8f.css",
     "static/js/main.e3f646c6.js"
   ]
 }
