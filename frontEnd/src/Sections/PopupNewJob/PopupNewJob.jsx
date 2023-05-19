@@ -24,8 +24,10 @@ const PopupNewJob = () => {
 
                         {/* i use the same heasder of login register ==>  the same display  */}
                         <HeaderLogReg title=  {t('PreviewNewJob')} handleClickLogReg={handleClickExitNewJob} />
+                        
                         <div className='successfullyAddJob'>
-                        job added successfully !
+                        {t('successfullyAddJob')}
+                        
                         </div>
                        
 

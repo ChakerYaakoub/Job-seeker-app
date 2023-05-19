@@ -16,7 +16,7 @@ const LoginForm = () => {
     const navigate = useNavigate();
 
     const ref = useRef(null);
-    const [error, setError] = useState(false)
+    const [error, setError] = useState(false) 
     const [loading, setLoading] = useState(false)
     const { t } = useTranslation();
     const { handleClickLogReg, handleClickShowLogin, isClickedLogReg, setIsClickedLogReg } = useStateContext();
