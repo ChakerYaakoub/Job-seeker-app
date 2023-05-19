@@ -11,7 +11,7 @@ const CandidateProfile = ({ user, t }) => {
                 <WelcomeUser t={t} userName={user.fullName} />
                 <LogoutUser t={t} />
             </div>
-            <SomeInfoProfile t={t} email={user.email} />
+            <SomeInfoProfile t={t} email={user.email} user={user} />
             <div className='flexButtonsProfile'>
                 <IconTextButton iconName='fa-laptop-file' text={t('MyAppliedJobs')} navigateTO="MyAppliedJobs" />
                 <IconTextButton iconName='fa-bookmark' text={t('savedJobs')} navigateTO="savedJobs" />

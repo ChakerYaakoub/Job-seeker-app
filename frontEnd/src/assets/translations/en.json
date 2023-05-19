@@ -41,17 +41,19 @@
   "Logout" :"Log out" ,
   "welcome" :"Welcome to your personal account" ,
   "SOmeinfo":"In this area you can take advantage of the various benefits of your",
-  "SomeInfo2":"candidate-user account ",
-  "profileEmail" : "Candidate Email:",
+  "SomeInfo2":"-User Account ",
+ 
+
+  "profileEmail" : " Email:",
   "MyAppliedJobs":"My applied jobs",
   "savedJobs":"My saved jobs ",
   "PersInformation":"Personal information" ,
   "message":"The information displayed here is retrieved from the local storage, including the email, name, and user type (candidate or employed). In this case, the user is identified as a candidate. Please note that the buttons on the current page are not fully implemented or functional",
 
 
-  "SomeInfo3":"Employer-user account ",
+  "SomeInfo3":"-User Account ",
 
-  "profileEmailEmployer" : "Employer Email:",
+  "profileEmailEmployer" : " Email ",
 
   "AddJobs":"Add a new jobs",
   "MyJobs":"My jobs ",
@@ -154,6 +156,8 @@
   
  
   "PreviewNewJob" : " Preview the new job" ,
+
+  "successfullyAddJob" :" job added successfully !" ,
 
 
   "jobTitle" : "Job title  "  , 
