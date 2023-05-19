@@ -16,6 +16,9 @@ const CandidateProfile = ({ user, t }) => {
                 <IconTextButton iconName='fa-laptop-file' text={t('MyAppliedJobs')} navigateTO="MyAppliedJobs" />
                 <IconTextButton iconName='fa-bookmark' text={t('savedJobs')} navigateTO="savedJobs" />
                 <IconTextButton iconName='fa-person-dots-from-line' text={t('PersInformation')} navigateTO="PersonalInformation" />
+                <IconTextButton iconName='fa-file' text={t('CV')} navigateTO="CVS" />
+
+               
             </div>
 
             <br /><br />

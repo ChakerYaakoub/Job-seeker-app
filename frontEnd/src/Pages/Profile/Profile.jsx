@@ -16,7 +16,7 @@ const Profile = () => {
 
   useEffect(() => {
     if (!user) {
-      navigate('/');
+      navigate('/Job-seeker-app');
     }
   }, []);
 

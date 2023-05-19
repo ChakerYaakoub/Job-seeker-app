@@ -110,6 +110,7 @@
     }
     .btnHeader{
         box-shadow: none;
+        background-color: transparent;
     }
     .myHeader{
         background-color: transparent;

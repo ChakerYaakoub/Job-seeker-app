@@ -2,7 +2,7 @@
 
 #notfoundMy {
     position: relative;
-    height: 100vh
+    height: 75vh
 }
 
 #notfoundMy .notfoundMy {
@@ -100,7 +100,7 @@
     }
     #notfoundMy {
      
-        height: 80vh
+        height: 70vh
     }
 
     .notfoundMy .notfound-404My h1 {

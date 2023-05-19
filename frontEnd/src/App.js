@@ -23,8 +23,8 @@ function App() {
         <Routes>
 
           {/* Home Page Routes  */}
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/Home" element={<Home />} />
+          <Route exact path="/Job-seeker-app" element={<Home />} />
+          {/* <Route exact path="/Home" element={<Home />} /> */}
 
 
           {/* profile / employer and candidate    Page   */}

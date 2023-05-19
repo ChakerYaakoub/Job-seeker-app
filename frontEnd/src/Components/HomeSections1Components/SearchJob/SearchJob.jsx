@@ -25,7 +25,7 @@ const SearchJob = () => {
           <SearchForm />
 
         </div>
-        <p>
+        <div className='PopularSeraches'>
           <span className='BoldSpan'>{t('Seraches')}</span> 
           {popularSearches.map((searchTerm, index) => (
             <span 
@@ -36,7 +36,7 @@ const SearchJob = () => {
               {searchTerm}
             </span>
           ))}
-        </p>
+        </div>
       </div>
     </>
   );

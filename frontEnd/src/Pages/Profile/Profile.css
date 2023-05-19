@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 }
+
 .IDSSSS{
     color: var(--BlueColor) !important;
     font-weight: 900 !important;
@@ -35,6 +36,7 @@
     display: flex;
     /* justify-content: space-between; */
     width: 100%;
+   
     /* align-items: center; */
     /* margin: auto; */
 }
@@ -103,6 +105,45 @@
 }
 .LogoutUser button i{
     padding: 0rem 0.3rem;
-    display: none;
+    /* display: none; */
+    font-size: 1.1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .LogoutUser .logText {
+   /* display: none; */
+
+   font-size: 0.7rem;
+    }
+    .LogoutUser button i{
+        padding: 0rem 0.3rem;
+        display: none;
+        /* font-size: 1rem; */
+    }
+
+    .IconText{
+        color:  var(--BlueColorText);
+        font-size: 0.8rem;
+        font-weight: 600;
+    
+    }
+
+    .WelcomUser h1{
+        font-size: 1.5rem;
+
+    }
+    .flexButtonsProfile{
+        flex-wrap: wrap;
+    }
+
+    .flexButtonsProfile .oneflexButtonProfile {
+   
+        width: 50%;
+        /* margin: auto; */
+        padding-top: 1rem ;
+    }
+
+    /* Adjust font size for smaller screens */
+   
+  }
 
