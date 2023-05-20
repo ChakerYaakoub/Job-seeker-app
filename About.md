@@ -12,6 +12,8 @@ IDS JOB-SEEKER is a web application designed to connect job seekers with job opp
 - Use of local storage to securely store login user data and job-related information.
 - Dummy data implementation for ease of testing .
 
+
+
 ## Getting Started
 
 To get started with IDS JOB-SEEKER, please refer to the [Getting Started](#getting-started) section in the  README file (HowToUse.md) or in (HowToUsePDF.pdf)
@@ -23,6 +25,17 @@ IDS JOB-SEEKER supports different account types:
 - Employer: Employers can post new job listings, view and manage applications.
 
 Please see the [Accounts](#accounts) section for the available account credentials.
+
+
+## Live Application
+
+You can experience the IDS JOB-SEEKER application live by visiting the following link:
+
+[IDS JOB-SEEKER Live Application](https://chakeryaakoub.github.io/Job-seeker-app/)
+
+Please note that the live application may have limited functionality compared to running it locally.
+
+
 
 ## Installation and Usage
 
