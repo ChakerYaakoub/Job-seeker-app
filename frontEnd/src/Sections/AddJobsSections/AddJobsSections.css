@@ -90,6 +90,11 @@
     .AddJobBtnSubmitDivs11{
         margin: 0 1rem;
     }
+
+    .AddJobBtnSubmitDivs11, .AddJobBtnSubmitDivsVoid {
+        width: 70%;
+        margin: 1rem auto;
+    }
    
 
 

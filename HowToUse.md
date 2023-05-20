@@ -15,6 +15,16 @@ To get started with JOB-SEEKER, follow these steps:
 
 That's it! You're now ready to use JOB-SEEKER to search for a job online.
 
+## Live Application
+
+You can experience the IDS JOB-SEEKER application live by visiting the following link:
+
+[IDS JOB-SEEKER Live Application](https://chakeryaakoub.github.io/Job-seeker-app/)
+
+Please note that the live application may have limited functionality compared to running it locally.
+
+
+
 ## Accounts
 
 JOB-SEEKER has the following accounts:
