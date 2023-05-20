@@ -72,8 +72,11 @@
 }
 
 
-#AR #searchJobForm .e-control.e-textbox.e-lib {
+
+
+#AR #searchJobForm .e-control.e-textbox.e-lib ,#AR #searchJobForm .e-control.e-dropdownlist.e-lib{
   padding-right: 1.2rem !important;
+  /* text-indent: 1.2rem ; */
 }
 
 
@@ -205,6 +208,10 @@
   .jobTitleDiv {
     border-right: none;
   }
+  #AR #searchJobForm  .e-input-group-icon.e-ddl-icon{
+    display: none;
+  }
+  
   
 }
 
@@ -324,7 +331,7 @@
 
 
   #AR #searchJobForm .e-control.e-textbox.e-lib {
-    padding-right: 3rem !important;
+    padding-right: 2rem !important;
     margin-top: 1rem !important;
   }
 

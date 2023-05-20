@@ -63,7 +63,7 @@ const SearchForm = () => {
 
   }, [isFocusInSearchCitylabel, isFocusInJobTitle, jobTitle, searchCity, showJobTitleLabel])
 
-
+  
   return (
 
 
@@ -115,6 +115,9 @@ const SearchForm = () => {
                 fields={{ text: 'text', value: 'value' }}
                 allowFiltering={true}
                 // allowCustom={true}
+                // popupHeight="5rem"
+                //  popupWidth="auto" 
+                // enableFullScreen={false} 
                 
            
         

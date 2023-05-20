@@ -27,8 +27,6 @@ const FindJobs = () => {
       <h2>   <span>  {myStat.jobTitle} </span> <span>   {myStat.searchCity} </span>   </h2>
 
 
-      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aperiam architecto perferendis labore ipsa similique quis eaque molestiae pariatur. Minus fugiat, animi tempore eveniet cupiditate aliquam molestias sapiente modi consectetur.</h5>
-
 
       <div className='MyAllertSearc'>
 
