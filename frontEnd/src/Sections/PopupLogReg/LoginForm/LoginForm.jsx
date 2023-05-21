@@ -166,7 +166,7 @@ const LoginForm = () => {
 
                             </div>
                             <div className='ForgotPass'>
-                                <Link to={"/"}> {t('forgot')}</Link>
+                                <Link to={"/Job-seeker-app"}> {t('forgot')}</Link>
 
 
                             </div>
