@@ -25,6 +25,14 @@ This project demonstrates my ability to **clone and build robust applications ba
 
 ---
 
+## 🖼️ Project Preview
+
+<p align="center">
+  <img src="./ids.webp" width="900"/>
+</p>
+
+---
+
 ## ✨ Features
 
 - 🔍 Browse job opportunities
@@ -73,5 +81,5 @@ This project was built to simulate a real-world job platform and demonstrate:
 ---
 
 ## 👨‍💻 Author
-
+Chaker yaakoub
 Front-end developer focused on React.js and modern web application development.
